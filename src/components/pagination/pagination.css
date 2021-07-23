@@ -1,0 +1,9 @@
+.pagination {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pagination button.active {
+    color: red;
+}
