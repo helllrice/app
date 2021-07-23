@@ -1,0 +1,22 @@
+.card  {
+}  
+
+ul {
+   list-style:  none;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+li {
+    margin: 10px;
+    width: 230px;
+    height: 400px;
+    border: 1px solid #F3F3F3;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+li:hover {
+    box-shadow: 0 0 1px #ccc inset;
+}
