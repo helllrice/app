@@ -14,7 +14,9 @@ import { useEffect } from 'react';
               {catalog.list.map(item => (
                 <li> 
                   {item.name} 
-                  <img src="https://pickcase.ua${item.url}" alt="sss"/>
+                  <img 
+                  src={`https://pickcase.ua${item.img.url}`}
+                  alt='sss'/>
                 </li>
               ))}
             </ul>
