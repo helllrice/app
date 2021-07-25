@@ -4,7 +4,7 @@ const Products = ({items}) => {
             return (
                 <li key={item.id}>
                     <span>{item.name}</span>
-                    <img src={item.img} alt="ss" />
+                    <img src={item.img} alt="" />
                 </li>
             );
         });
